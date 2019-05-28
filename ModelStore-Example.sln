@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Appeon.ModelStoreDemo.Oracle", "Appeon.ModelStoreDemo.Oracle\Appeon.ModelStoreDemo.Oracle.csproj", "{6DE8FE2B-15C7-4A32-B8C4-434799314EF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Appeon.ModelStoreDemo.PostgreSQL", "Appeon.ModelStoreDemo.PostgreSQL\Appeon.ModelStoreDemo.PostgreSQL.csproj", "{85FF9BFC-A8D5-413A-99F1-70EE885D0669}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Appeon.ModelStoreDemo.SQLAnywhere", "Appeon.ModelStoreDemo.SQLAnywhere\Appeon.ModelStoreDemo.SQLAnywhere.csproj", "{5F06DB72-F3E9-48C6-8582-713DBFA9E1E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Appeon.ModelStoreDemo.SqlServer", "Appeon.ModelStoreDemo.SqlServer\Appeon.ModelStoreDemo.SqlServer.csproj", "{ECBB31DE-DDC9-43F0-B69B-DEEB8D48085A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appeon.SalesDemo.PB", "Appeon.SalesDemo.PB", "{830D726C-73DB-4EBA-A2C9-C2666605F0DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SalesDemo", "SalesDemo", "{CEEE8B94-76DB-44DB-ACDD-38BD3591510D}"
+	ProjectSection(SolutionItems) = preProject
+		Appeon.SalesDemo.PB\SalesDemo\apisetup.ini = Appeon.SalesDemo.PB\SalesDemo\apisetup.ini
+		Appeon.SalesDemo.PB\SalesDemo\common.pbl = Appeon.SalesDemo.PB\SalesDemo\common.pbl
+		Appeon.SalesDemo.PB\SalesDemo\person.pbl = Appeon.SalesDemo.PB\SalesDemo\person.pbl
+		Appeon.SalesDemo.PB\SalesDemo\product.pbl = Appeon.SalesDemo.PB\SalesDemo\product.pbl
+		Appeon.SalesDemo.PB\SalesDemo\report.pbl = Appeon.SalesDemo.PB\SalesDemo\report.pbl
+		Appeon.SalesDemo.PB\SalesDemo\salesdemo.pbl = Appeon.SalesDemo.PB\SalesDemo\salesdemo.pbl
+		Appeon.SalesDemo.PB\SalesDemo\salesdemo.pbt = Appeon.SalesDemo.PB\SalesDemo\salesdemo.pbt
+		Appeon.SalesDemo.PB\SalesDemo\SalesDemo.pbw = Appeon.SalesDemo.PB\SalesDemo\SalesDemo.pbw
+		Appeon.SalesDemo.PB\SalesDemo\salesdemo.usr.opt = Appeon.SalesDemo.PB\SalesDemo\salesdemo.usr.opt
+		Appeon.SalesDemo.PB\SalesDemo\salesorder.pbl = Appeon.SalesDemo.PB\SalesDemo\salesorder.pbl
+		Appeon.SalesDemo.PB\SalesDemo\webapi.pbl = Appeon.SalesDemo.PB\SalesDemo\webapi.pbl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{22F2DA7B-9044-43B1-A422-F9BFD9782CD4}"
+	ProjectSection(SolutionItems) = preProject
+		Appeon.SalesDemo.PB\SalesDemo\image\address.png = Appeon.SalesDemo.PB\SalesDemo\image\address.png
+		Appeon.SalesDemo.PB\SalesDemo\image\address_active.png = Appeon.SalesDemo.PB\SalesDemo\image\address_active.png
+		Appeon.SalesDemo.PB\SalesDemo\image\Area.PNG = Appeon.SalesDemo.PB\SalesDemo\image\Area.PNG
+		Appeon.SalesDemo.PB\SalesDemo\image\background.PNG = Appeon.SalesDemo.PB\SalesDemo\image\background.PNG
+		Appeon.SalesDemo.PB\SalesDemo\image\Bar.PNG = Appeon.SalesDemo.PB\SalesDemo\image\Bar.PNG
+		Appeon.SalesDemo.PB\SalesDemo\image\CRM.ico = Appeon.SalesDemo.PB\SalesDemo\image\CRM.ico
+		Appeon.SalesDemo.PB\SalesDemo\image\customer.png = Appeon.SalesDemo.PB\SalesDemo\image\customer.png
+		Appeon.SalesDemo.PB\SalesDemo\image\customer_active.png = Appeon.SalesDemo.PB\SalesDemo\image\customer_active.png
+		Appeon.SalesDemo.PB\SalesDemo\image\Line.PNG = Appeon.SalesDemo.PB\SalesDemo\image\Line.PNG
+		Appeon.SalesDemo.PB\SalesDemo\image\order.png = Appeon.SalesDemo.PB\SalesDemo\image\order.png
+		Appeon.SalesDemo.PB\SalesDemo\image\order_active.png = Appeon.SalesDemo.PB\SalesDemo\image\order_active.png
+		Appeon.SalesDemo.PB\SalesDemo\image\product.png = Appeon.SalesDemo.PB\SalesDemo\image\product.png
+		Appeon.SalesDemo.PB\SalesDemo\image\product_active.png = Appeon.SalesDemo.PB\SalesDemo\image\product_active.png
+		Appeon.SalesDemo.PB\SalesDemo\image\quit.png = Appeon.SalesDemo.PB\SalesDemo\image\quit.png
+		Appeon.SalesDemo.PB\SalesDemo\image\settings.png = Appeon.SalesDemo.PB\SalesDemo\image\settings.png
+		Appeon.SalesDemo.PB\SalesDemo\image\settings_active.png = Appeon.SalesDemo.PB\SalesDemo\image\settings_active.png
+		Appeon.SalesDemo.PB\SalesDemo\image\statistics.png = Appeon.SalesDemo.PB\SalesDemo\image\statistics.png
+		Appeon.SalesDemo.PB\SalesDemo\image\statistics_active.png = Appeon.SalesDemo.PB\SalesDemo\image\statistics_active.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{699A6EF3-0A64-4DAF-AC8D-1A50FA039E1A}"
+	ProjectSection(SolutionItems) = preProject
+		Appeon.SalesDemo.PB\SalesDemo\Release\apisetup.ini = Appeon.SalesDemo.PB\SalesDemo\Release\apisetup.ini
+		Appeon.SalesDemo.PB\SalesDemo\Release\common.pbd = Appeon.SalesDemo.PB\SalesDemo\Release\common.pbd
+		Appeon.SalesDemo.PB\SalesDemo\Release\person.pbd = Appeon.SalesDemo.PB\SalesDemo\Release\person.pbd
+		Appeon.SalesDemo.PB\SalesDemo\Release\product.pbd = Appeon.SalesDemo.PB\SalesDemo\Release\product.pbd
+		Appeon.SalesDemo.PB\SalesDemo\Release\report.pbd = Appeon.SalesDemo.PB\SalesDemo\Release\report.pbd
+		Appeon.SalesDemo.PB\SalesDemo\Release\salesdemo.exe = Appeon.SalesDemo.PB\SalesDemo\Release\salesdemo.exe
+		Appeon.SalesDemo.PB\SalesDemo\Release\salesdemo.pbd = Appeon.SalesDemo.PB\SalesDemo\Release\salesdemo.pbd
+		Appeon.SalesDemo.PB\SalesDemo\Release\salesorder.pbd = Appeon.SalesDemo.PB\SalesDemo\Release\salesorder.pbd
+		Appeon.SalesDemo.PB\SalesDemo\Release\webapi.pbd = Appeon.SalesDemo.PB\SalesDemo\Release\webapi.pbd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DE8FE2B-15C7-4A32-B8C4-434799314EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE8FE2B-15C7-4A32-B8C4-434799314EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE8FE2B-15C7-4A32-B8C4-434799314EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE8FE2B-15C7-4A32-B8C4-434799314EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85FF9BFC-A8D5-413A-99F1-70EE885D0669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85FF9BFC-A8D5-413A-99F1-70EE885D0669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85FF9BFC-A8D5-413A-99F1-70EE885D0669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85FF9BFC-A8D5-413A-99F1-70EE885D0669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F06DB72-F3E9-48C6-8582-713DBFA9E1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F06DB72-F3E9-48C6-8582-713DBFA9E1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F06DB72-F3E9-48C6-8582-713DBFA9E1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F06DB72-F3E9-48C6-8582-713DBFA9E1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECBB31DE-DDC9-43F0-B69B-DEEB8D48085A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBB31DE-DDC9-43F0-B69B-DEEB8D48085A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBB31DE-DDC9-43F0-B69B-DEEB8D48085A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBB31DE-DDC9-43F0-B69B-DEEB8D48085A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEEE8B94-76DB-44DB-ACDD-38BD3591510D} = {830D726C-73DB-4EBA-A2C9-C2666605F0DA}
+		{22F2DA7B-9044-43B1-A422-F9BFD9782CD4} = {CEEE8B94-76DB-44DB-ACDD-38BD3591510D}
+		{699A6EF3-0A64-4DAF-AC8D-1A50FA039E1A} = {CEEE8B94-76DB-44DB-ACDD-38BD3591510D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9051333-60FC-40EA-B3E1-3C0F7DD770F8}
+	EndGlobalSection
+EndGlobal
