@@ -23,10 +23,8 @@ The sample contains two projects:
 2. A PowerBuilder project. This project is a sales demo application. The project is structured as follows.
 
    ```
-   |—— Appeon.SalesDemo.PB			PB source code
-   	|—— salesdemo.pbt			PB target
-   	|—— Release					PB executable that can directly run
-   		|—— salesdemo.exe			PB c/s application
+   |—— .NET-DataStore-Example		
+   	|—— Appeon.SalesDemo.PB        PowerBuilder project source code
    ```
 
 ##### Setting Up the Project
@@ -48,28 +46,28 @@ The sample contains two projects:
    If your project is Appeon.ModelStoreDemo.SqlServer:
 
    ```json
-   /* Keep the database connection name as the default “AdventureWorks” or change it to a name you prefer to use, and change the Data Source, User ID, Password and Initial Catalog according to the actual settings */
+   //Keep the database connection name as the default “AdventureWorks” or change it to a name you prefer to use, and change the Data Source, User ID, Password and Initial Catalog according to the actual settings
    "ConnectionStrings": { "AdventureWorks": "Data Source=127.0.0.1; Initial Catalog=AdventureWorks; Integrated Security=False; User ID=sa; Password=123456; Connect Timeout=15; Encrypt=False; TrustServerCertificate=True; ApplicationIntent=ReadWrite;MultiSubnetFailover= False; Pooling=true; Max Pool Size=2;"  } 
    ```
 
    If your project is Appeon.ModelStoreDemo.Oracle:
 
    ```json
-   /*Keep the database connection name as the default “AdventureWorks” or change it to a name you prefer to use, and change the HOST, User ID, Password to the actual settings*/
+   //Keep the database connection name as the default “AdventureWorks” or change it to a name you prefer to use, and change the HOST, User ID, Password to the actual settings
    "ConnectionStrings": { "AdventureWorks": "User Id=sa;Password=123456; Data Source=(DESCRIPTIOn=(ADDRESS=(PROTOCOL=Tcp)(HOST=127.0.0.1)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=ADVENTUREWORKS)));"  }   
    ```
 
    If your project is Appeon.ModelStoreDemo.SqlAnywhere:
 
    ```json
-   /*Keep the database connection name as the default “AdventureWorks” or change it to a name you prefer to use, and change the uid, pwd to the actual settings */
+   //Keep the database connection name as the default “AdventureWorks” or change it to a name you prefer to use, and change the uid, pwd to the actual settings
    "ConnectionStrings": { "AdventureWorks": "DSN=ASA_AdventureWorks;uid=sa;pwd=123456"  } 
    ```
 
    If your project is Appeon.ModelStoreDemo.PostgreSQL:
 
    ```json
-   /*Keep the database connection name as the default “AdventureWorks” or change it to a name //you prefer to use, and change the HOST, User ID, Password to the actual settings  */
+   //Keep the database connection name as the default “AdventureWorks” or change it to a name you prefer to use, and change the HOST, User ID, Password to the actual settings 
    "ConnectionStrings": { "AdventureWorks":  "PORT=5432;DATABASE=AdventureWorks;HOST=127.0.0.1;PASSWORD=sa;USER ID=123456"  } 
    ```
 
@@ -78,28 +76,28 @@ The sample contains two projects:
    If your project is Appeon.ModelStoreDemo.SqlServer:
 
    ```C#
-   /* Note: Change "OrderContext" if you have changed the default DataContext file name; change the "AdventureWorks" if you have changed the database connection name in appsettings.json */
+   //Note: Change "OrderContext" if you have changed the default DataContext file name; change the "AdventureWorks" if you have changed the database connection name in appsettings.json
    services.AddDataContext<OrderContext>(m => m.UseSqlServer(Configuration["ConnectionStrings:AdventureWorks"])); 
    ```
 
    If your project is Appeon.ModelStoreDemo.Oracle:
 
    ```C#
-   /* Note: Change "OrderContext" if you have changed the default DataContext file name; change the "AdventureWorks" if you have changed the database connection name in appsettings.json */
+   //Note: Change "OrderContext" if you have changed the default DataContext file name; change the "AdventureWorks" if you have changed the database connection name in appsettings.json
    services.AddDataContext<OrderContext>(m => m.UseOracle(Configuration["ConnectionStrings:AdventureWorks"]));  
    ```
 
    If your project is Appeon.ModelStoreDemo.SqlAnywhere:
 
    ```C#
-   /* Note: Change "OrderContext" if you have changed the default DataContext file name; change the "AdventureWorks" if you have changed the database connection name in appsettings.json */
+   //Note: Change "OrderContext" if you have changed the default DataContext file name; change the "AdventureWorks" if you have changed the database connection name in appsettings.json
    services.AddDataContext<OrderContext>(m => m.UseOdbc(Configuration["ConnectionStrings:AdventureWorks"])); 
    ```
 
    If your project is Appeon.ModelStoreDemo.PostgreSQL:
 
    ```C#
-   /* Note: Change "OrderContext" if you have changed the default DataContext file name; change the "AdventureWorks" if you have changed the database connection name in appsettings.json */
+   //Note: Change "OrderContext" if you have changed the default DataContext file name; change the "AdventureWorks" if you have changed the database connection name in appsettings.json
    services.AddDataContext<OrderContext>(m => m.UsePostgreSql(Configuration["ConnectionStrings:AdventureWorks"])); 
    ```
 
