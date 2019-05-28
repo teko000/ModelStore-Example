@@ -28,8 +28,7 @@ namespace Appeon.ModelStoreDemo.SqlServer
 				m.UsePowerBuilderIntegrated();
             });
 
-            // Note: Replace "ContextName" with the configuration context name; replace "key" with the database connection name that exists in appsettings.json. The sample code is as follows:
-
+	    //Note: Change "OrderContext" if you have changed the default DataContext file name; change the "AdventureWorks" if you have changed the database connection name in appsettings.json            
             services.AddDataContext<OrderContext>(m => m.UseSqlServer(Configuration["ConnectionStrings:AdventureWorks"]));
 
             services.AddScoped<IProductService, ProductService>();
