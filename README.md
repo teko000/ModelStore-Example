@@ -14,10 +14,10 @@ The sample contains two projects:
 
    ```
    |—— Appeon.ModelStoreDemo		Implemented with ModelStore from PowerBuilder.Data
-       |—— Appeon.ModelStoreDemo(Sql Server)      For working with SQL Server
-       |—— Appeon.ModelStoreDemo(Oracle)          For working with Oracle
-       |—— Appeon.ModelStoreDemo(SA)              For working with SQL Anywhere
-       |—— Appeon.ModelStoreDemo(PostgreSQL)      For working with PostgreSQL
+       |—— Appeon.ModelStoreDemo.SqlServer      For working with SQL Server
+       |—— Appeon.ModelStoreDemo.Oracle          For working with Oracle
+       |—— Appeon.ModelStoreDemo.SQLAnywhere              For working with SQL Anywhere
+       |—— Appeon.ModelStoreDemo.PostgreSQL      For working with PostgreSQL
    ```
 
 2. A PowerBuilder project. This project is a sales demo application. The project is structured as follows.
