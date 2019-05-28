@@ -13,7 +13,7 @@ The sample contains two projects:
    The project is structured as follows.
 
    ```
-   |—— Appeon.ModelStoreDemo		Implemented with ModelStore from PowerBuilder.Data
+   |—— ModelStore-Example		Implemented with ModelStore from PowerBuilder.Data
        |—— Appeon.ModelStoreDemo.SqlServer      For working with SQL Server
        |—— Appeon.ModelStoreDemo.Oracle          For working with Oracle
        |—— Appeon.ModelStoreDemo.SQLAnywhere              For working with SQL Anywhere
@@ -23,7 +23,7 @@ The sample contains two projects:
 2. A PowerBuilder project. This project is a sales demo application. The project is structured as follows.
 
    ```
-   |—— .NET-DataStore-Example		
+   |—— ModelStore-Example			
    	|—— Appeon.SalesDemo.PB        PowerBuilder project source code
    ```
 
